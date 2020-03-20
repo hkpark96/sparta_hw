@@ -1,0 +1,229 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+    
+      <!-- Webpage Title -->
+      <title>카카오프렌즈 한라봉 라이언</title>
+    
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+      <!-- JS -->   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.9.min.js"></script>
+      
+      <script>
+      function order(){
+            if (!$('#order_firstname').val()){
+                alert ('성을 입력해주세요');
+                $('#order_firstname').focus();
+            }  else if (!$('#order_lastname').val()){
+                alert ('이름을 입력해주세요');
+                $('#order_lastname').focus();
+            }  else if (!$('#order_count').val() == ''){
+                alert ('수량을 선택해주세요');
+                $('#order_count').focus();
+            }  else if (!$('#order_address').val()){
+                alert ('주소를 입력해주세요');
+                $('#order_address').focus();
+            }  else if (!$('#order_phone1').val()){
+                alert ('전화번호 최초 3자리를 입력해주세요');
+                $('#order_phone2').focus();
+            }  else if (!$('#order_phone2').val()){
+                alert ('전화번호 중간 4자리를 입력해주세요')
+                $('#order_phone2').focus();
+            } else if (!$('#order_phone3').val()){
+                alert ('전화번호 최종 4자리를 입력해주세요')
+                $('#order_phone3').focus();
+            }
+        }
+    
+      
+
+
+      </script>
+      <!-- 구글폰트 -->
+      <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+    
+      <!-- style -->
+      <style type="text/css">
+                * {
+          font-family: 'Nanum Myeongjo', sans-serif;
+        }
+          .order {
+            text-align: center;
+            }
+          .img {
+            display: block; margin-left: auto; margin-right: auto;
+            }
+          .align-center {
+            text-align: center;
+          }
+          .pro-name {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+          h2, h6 {
+            display: inline;
+          }
+            
+          .big-square {
+                max-width: 1100px;
+                height: 1700px;
+                padding: 2rem;
+                margin: 2rem auto;
+                border-top-color: orange;
+                border-bottom-color: orange;
+                border-left-color: orange;
+                border-right-color: orange;
+                border-radius: 0.3rem;
+                border: solid;
+                display: block;
+          }
+          .title {
+              color: orange;
+              text-align: center;
+          }
+          .form-inline {  
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+          }
+          .form-inline label {
+              margin: 5px 10px 5px 0;
+          }
+          .form-inline input {
+              vertical-align: middle;
+              margin: 5px 10px 5px 0;
+              padding: 10px;
+              background-color: #fff;
+              border: 1px solid #ddd;
+          }
+          @media (max-width: 800px) {
+              .form-inline input {
+                margin: 10px 0;
+                }
+            .form-inline {
+              flex-direction: column;
+              align-items: stretch;
+            }
+          }
+      </style>
+    </head>
+
+    <body>
+      &nbsp;
+      <div class="title" font-weight='bold'>
+        <h1>제주 여행 끝 ㅠㅠ</h1>
+        <h4>03.03 ~ 03.05, 03.10 ~ 03.13</h4>
+      </div>
+      
+      <div class="big-square">
+      <div class="product-img">
+        <center>
+          <img src="https://image.chosun.com/sitedata/image/201911/22/2019112200733_0.png" alt="상품 사진" style="width:50%;">
+        </center>
+      </div>
+      <div style="padding:10px;">
+      </div>
+      <div class="product-name">
+        <p class="indent"></p>
+        <div class="pro-name">
+          <h2>카카오프렌즈 한라봉 라이언</h2>
+          <h6>   가격: 49,900원 / 개</h6>
+        </div>
+
+        </p>
+      </div>
+      <div style="padding:10px;">
+      <hr class="my-4">
+      <div style="padding:10px;">
+
+      </div>
+      <div class="product-detail">
+        <h5>   이 상품은 카카오프렌즈 제주도 3개 지점에서만 판매되는 전설의 상품이다. 
+          절대로 대한민국 육지에서는 볼 수 없을 뿐더러 해외에서도 구할 수 없다. 
+          그럼에도 불구하고 제주도를 가지 않고도 한라봉 라이언 구매를 원하는 고객들에게 판매 대행 서비스를 우리는 구축했다.
+          세상에서 단 하나뿐인 카카오프렌즈 Jeju Edition! 이를 국내 육지, 심지어 해외에서 소유할 수 있는 기회를 드리겠습니다.
+          단 돈 49,900원! 물 건너오고, 세금까지 붙다 보니 가격이 생각보다 높아보일 수 있습니다. 하지만 이 가격으로 한라봉을
+          머리 위에 쓴 라이언을 집앞에서 만나보세요!</h5>
+      </div>
+      </div>
+      <div style="padding:30px;">
+        <hr class="my-4">
+        <div style="padding:30px;">
+      <div class="order">
+        <h2>주문하기</h2> &nbsp;
+        <div style="padding:20px;"></div>
+        <div class="jumbotron">
+          <div class="column">
+            <div class="col-xs-1">
+              <p>
+              주문자 성:  <input type="text" placeholder="예시: 임" class="form-control" id="order_firstname">
+              </p>
+            </div>
+            <div style="padding:10px;">
+            </div>
+            <div class="col-xs-2">
+              <p>
+              주문자 이름:  <input type="text" placeholder="예시: 지수" class="form-control" id="order_lastname">
+              </p>
+            </div>
+            <div style="padding:10px;">
+            </div>
+            <p>
+              수량:
+            </p>
+            <select class="form-control" id="order_count">
+              <option> -- 수량을 선택하세요 -- </option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+            <div style="padding:20px;">
+            </div>
+            <div class="col-xs-3">
+              <p>
+                주소:  <input type="text" placeholder="예시: 서울특별시 성북구 안암동" class="form-control" id="order_address">
+              </p>
+            <div style="padding:10px;">
+            </div>
+          <form class="form-inline" action="action.page.php">
+            <label for="no1">전화번호: </label>
+            <input type="text" placeholder="예: 010" id="order_phone1">
+            <label for="no2"> - </label>
+            <input type="text" placeholder="예: 6671" id="order_phone2">
+            <label for="no3"> - </label>
+            <input type="text" placeholder="예: 7510" id="order_phone3">
+          </form>
+          </div>
+
+        </div>
+        </div>
+        <div style="padding:30px;"></div>
+        <a class="btn btn-primary btn-lg centered button-sized" href="#" role="button" onclick="order()">주문하기</a>
+
+      </div>
+      </div>
+      <div style="padding:40px;">
+      </div>
+
+
+      </div>
+    </body>
+    </html>
